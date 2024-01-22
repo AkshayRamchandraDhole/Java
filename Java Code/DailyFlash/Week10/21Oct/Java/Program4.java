@@ -1,0 +1,15 @@
+import java.io.*;
+class Program4{
+
+	public static void main(String[] args) throws IOException {
+	
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter String : ");
+		String st1 = br.readLine();
+		
+		System.out.println("Enter String : ");
+		String st2 = br.readLine();
+	
+		System.out.println(st1.equals(st2));
+	}
+}
